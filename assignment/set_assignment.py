@@ -26,7 +26,7 @@
 # print(a.symmetric_difference(b))
 
 
-# 4.write a program to creste a symmetric difference
+# 4.write a program to create a symmetric difference
 
 # a={1,2,3,4,5,6,7}
 # b={2,5,8}
@@ -36,10 +36,11 @@
   
 # 5.Write a program to count the number of vowels sets in given string
 
-str="hello worlda"
+str="hello worlda","this was nice"
 vowels_set={'a','e','i','o','u'}
 count=0
 for i in str:
-    if i in vowels_set:
-        count+=1
+    for j in i:
+        if j in vowels_set:
+            count+=1
 print(count)        
