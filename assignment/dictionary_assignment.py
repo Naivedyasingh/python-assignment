@@ -64,15 +64,16 @@
 # print(combine)           
 
 
-# 6.write a python program to sort the alphabetically in dictionary
+#6.write a python program to sort the alphabetically in dictionary
 
-# num={'n1':[1,2,3],'n2':[100,22,53],'n3':[10,9,21],}
-# for n in num:
-#     num[n]=sorted(num[n])
-#     print(num[n])
-# print(num) 
-# 
-# 
+num={'n1':[1,2,3],'n2':[100,22,53],'n3':[10,9,21],}
+
+for n in num:
+    num[n]=sorted(num[n])
+    print(num[n])
+print(num) 
+
+
 
 
 # 7.write a pyhton program to count the number values in dictionay 
@@ -92,25 +93,25 @@
 
 
 
-# 8. write program for remove the  duplicate values from dictionary
-data = {
-    'a': [1, 2, 3],
-    'b': [2, 3, 4],
-    'c': [4, 5, 6],
-    'd': [1, 7]
-}
+# # 8. write program for remove the  duplicate values from dictionary
+# data = {
+#     'a': [1, 4, 5,6],
+#     'b': [1, 8, 9],
+#     'c': [10, 22, 4],
+#     'd': [5, 11,22]
+# }
 
-seen = set()
-result = {}
+# seen = set()
+# result = {}
 
-for key in data:
-    unique_values = []
-    for val in data[key]:
-        if val not in seen:
-            unique_values.append(val)
-            seen.add(val)
-    result[key] = unique_values
-print(result)
+# for key in data:
+#     unique_values = []
+#     for val in data[key]:
+#         if val not in seen:
+#             unique_values.append(val)
+#             seen.add(val)
+#     result[key] = unique_values
+# print(result)
 
 
 
